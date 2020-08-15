@@ -1,5 +1,5 @@
 > npx create-next-app test\
-> yarn dev -p 3001\
+> yarn dev -p 3001
 
 Single Page\
 Under the pages folder create single.js\
