@@ -43,9 +43,16 @@ Create a folder called static/images and add an image file in\
 Create a page under pages folder call showimage.js\
 you may need to run "yarn dev -p 3001" again
 
-SASS in Next.js\
-https://github.com/vercel/next-plugins/tree/master/packages/next-sass\
-install > npm install --save @zeit/next-sass node-sass\
-in the root of the project, create the file "next.config.js"\
-Goto static\scss folder and create styles.scss
-Goto pages folder and create scssstyle.js
+SASS and CSS in Next.js (install both css and sass)\
+npm install --save @zeit/next-css\
+npm install --save @zeit/next-sass node-sass\
+inside the root of the project, create next.config.js\
+create static/css and static/scss folders\
+add styles.css inside static/css\
+add styles.scss inside static/scss\
+create style_test.js under pages folder and import the styles.css and styles.scss\
+http://localhost:3001/style_test
+
+For global CSS
+edit the styles/globals.css directly
+and this no need to import in each page
