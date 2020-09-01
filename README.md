@@ -41,8 +41,8 @@ after edit \_document.js, you need to run "yarn dev -p 3001" to make it effectiv
 Handling Image\
 Create a folder called static/images and add an image file in\
 Create a page under pages folder call showimage.js\
-you may need to run "yarn dev -p 3001" again
-** REMARK: it should change static to public
+you may need to run "yarn dev -p 3001" again\
+** REMARK: it should change static to public\
 ** https://nextjs.org/docs/basic-features/static-file-serving
 
 
