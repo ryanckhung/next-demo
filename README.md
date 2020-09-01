@@ -42,6 +42,10 @@ Handling Image\
 Create a folder called static/images and add an image file in\
 Create a page under pages folder call showimage.js\
 you may need to run "yarn dev -p 3001" again
+** REMARK: it should change static to public
+** https://nextjs.org/docs/basic-features/static-file-serving
+
+
 
 SASS and CSS in Next.js (install both css and sass)\
 npm install --save @zeit/next-css\
