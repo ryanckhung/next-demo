@@ -38,6 +38,7 @@ all common content in each page header, eg. css, meta data should be removed and
 you don't need to import this \_document.js to the pages, it will auto apply to all the pages\
 after edit \_document.js, you need to run "yarn dev -p 3001" to make it effective
 
+### Static Image
 Handling Image\
 Create a folder called static/images and add an image file in\
 Create a page under pages folder call showimage.js\
@@ -46,7 +47,7 @@ you may need to run "yarn dev -p 3001" again\
 ** https://nextjs.org/docs/basic-features/static-file-serving
 
 
-
+### CSS
 SASS and CSS in Next.js (install both css and sass)\
 npm install --save @zeit/next-css\
 npm install --save @zeit/next-sass node-sass\
