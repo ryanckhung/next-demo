@@ -60,3 +60,6 @@ http://localhost:3001/style_test
 For global CSS
 edit the styles/globals.css directly
 and this no need to import in each page
+
+
+### For Build
