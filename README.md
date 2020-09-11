@@ -62,4 +62,9 @@ edit the styles/globals.css directly
 and this no need to import in each page
 
 
-### For Build
+### For Run and Build
+Run for development > yarn dev -p <port_name>
+For deployment > yarn build
+then copy .next folder, public folder and package.json to the server
+then run > npm install
+then run > yarn start -p <port_name>
