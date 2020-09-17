@@ -69,3 +69,10 @@ For deployment > yarn build
 then copy .next folder, public folder and package.json to the server
 then run > npm install
 then run > yarn start -p <port_name>
+
+
+### notes on next/link
+https://nextjs.org/docs/api-reference/next/link
+The default behavior of Link is to scroll to the top of the page. 
+When there is a hash defined it will scroll to the specific id, like a normal <a> tag. 
+To prevent scrolling to the top / hash scroll={false} can be added to Link:
