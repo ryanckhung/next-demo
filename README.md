@@ -79,5 +79,7 @@ To prevent scrolling to the top / hash scroll={false} can be added to Link \
 add id={pid} to the a tag \
 then in the URL type "http://localhost:3009/basic#67" (#pid) to scroll back
   
+### client side vs server side link
+https://dev.to/justincy/client-side-and-server-side-redirection-in-next-js-3ile
                                                                                  
                                                                                  
