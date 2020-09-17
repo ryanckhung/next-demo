@@ -76,9 +76,8 @@ https://nextjs.org/docs/api-reference/next/link \
 The default behavior of Link is to scroll to the top of the page. \
 When there is a hash defined it will scroll to the specific id, like a normal <a> tag. \
 To prevent scrolling to the top / hash scroll={false} can be added to Link \
-  <Link scroll={false} ... \
-        <a id={pid}>\
-  ....... \
+<Link scroll={false} ... \
+  <a id={pid}>\
 then in the URL type "http://localhost:3009/basic#67" (#pid) to scroll back
   
                                                                                  
