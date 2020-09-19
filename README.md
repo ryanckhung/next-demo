@@ -83,6 +83,10 @@ then in the URL type "http://localhost:3009/basic#67" (#pid) to scroll back
 https://dev.to/justincy/client-side-and-server-side-redirection-in-next-js-3ile \
 use the following to perform the routing for page with [pid] (dynamic variable) \
 in the following [pid] is replaced with accident \
-Router.push("/categorylist/[pid]", "/categorylist/accident")
+Router.push("/categorylist/[pid]", "/categorylist/accident") \
+You can try the following git example on [...slug].js to pass multiple varibale on the URL link \
+npx create-next-app --example catch-all-routes catch-all-routes-app
+
+
                                                                                  
                                                                                  
