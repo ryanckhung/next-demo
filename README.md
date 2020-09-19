@@ -85,6 +85,7 @@ use the following to perform the routing for page with [pid] (dynamic variable) 
 in the following [pid] is replaced with accident \
 Router.push("/categorylist/[pid]", "/categorylist/accident") \
 You can try the following git example on [...slug].js to pass multiple varibale on the URL link \
+https://github.com/vercel/next.js/tree/canary/examples/catch-all-routes \
 npx create-next-app --example catch-all-routes catch-all-routes-app
 
 
