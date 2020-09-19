@@ -80,6 +80,9 @@ add id={pid} to the a tag \
 then in the URL type "http://localhost:3009/basic#67" (#pid) to scroll back
   
 ### client side vs server side link
-https://dev.to/justincy/client-side-and-server-side-redirection-in-next-js-3ile
+https://dev.to/justincy/client-side-and-server-side-redirection-in-next-js-3ile \
+use the following to perform the routing for page with [pid] (dynamic variable) \
+in the following [pid] is replaced with accident \
+Router.push("/categorylist/[pid]", "/categorylist/accident")
                                                                                  
                                                                                  
