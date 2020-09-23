@@ -64,11 +64,12 @@ and this no need to import in each page
 
 
 ### For Run and Build
-Run for development > yarn dev -p <port_name>
-For deployment > yarn build
-then copy .next folder, public folder and package.json to the server
-then run > npm install
-then run > yarn start -p <port_name>
+Run for development > yarn dev -p <port_name> \
+For deployment > yarn build \
+then copy .next folder, public folder and package.json to the server \
+then run > npm install \
+then run > yarn start -p <port_name> \
+> yarn start -p <port_name> will run the compiled code only [.next] 
 
 
 ### notes on next/link
