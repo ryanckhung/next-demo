@@ -95,7 +95,7 @@ You should do it in the following wait:\
 Router.push("/somepage/[pid]", "/somepage/abc");\
 BUT NOT\
 Router.push("/somepage/abc"); => this will make the nextjs can't find the file and create server side renderering\
-Similarly for Link that you should add as following: \
+Similarly for Link that you should add as following: 
 <Link href="/somepage/[pid]" as={"/somepage/" + props.item.category} scroll={false}> 
 
                                                                                  
