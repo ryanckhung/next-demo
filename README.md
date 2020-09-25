@@ -90,5 +90,12 @@ https://github.com/vercel/next.js/tree/canary/examples/catch-all-routes \
 npx create-next-app --example catch-all-routes catch-all-routes-app
 
 
-                                                                                 
+### Routing for page with somepage/[pid].js     
+You should do it in the following wait:\
+Router.push("/somepage/[pid]", "/somepage/abc");\
+BUT NOT\
+Router.push("/somepage/abc"); => this will make the nextjs can't find the file and create server side renderering\
+Similarly \ 
+<Link href="/somepage/[pid]" as={"/somepage/" + props.item.category} scroll={false}> should use
+
                                                                                  
