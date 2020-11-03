@@ -98,4 +98,9 @@ Router.push("/somepage/abc"); => this will make the nextjs can't find the file a
 Similarly for Link that you should add as following: 
 <Link href="/somepage/[pid]" as={"/somepage/" + props.item.category} scroll={false}> 
 
+
+### Adding External JS Source to all pages (eg. stat. tool)
+goto pages/_doucment.js\
+<script type="text/javascript" src="scripts/baidu_analytics.js"></script> \
+then place the baidu_analytics.js under /public/scripts/baidu_analytics.js 
                                                                                  
